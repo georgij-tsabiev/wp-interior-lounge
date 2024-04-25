@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-weight: 300;
@@ -101,8 +105,77 @@ body {
   text-align: center;
 }
 
+.order {
+  padding: 80px 0 0 0;
+  background-color: #f4efe2;
+}
+
+.review-form {
+  border-bottom: 1px solid #f5d581;
+  padding-bottom: 56px;
+}
+
+.order__title {
+  font-weight: 500;
+  font-size: 32px;
+  color: #9f7303;
+}
+
+.wpcf7-textarea {
+  font-size: 18px;
+  line-height: 150%;
+  font-family: "Montserrat", "Arial", sans-serif;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.wpcf7-text {
+  font-size: 18px;
+  line-height: 150%;
+  font-family: "Montserrat", "Arial", sans-serif;
+  padding: 16px;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.order-form .wpcf7-text {
+  width: 50%;
+}
+
+.wpcf7-submit {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  background-color: #9f7303;
+  color: #ffffff;
+  width: 285px;
+  padding: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.order-form__text {
+  margin-left: 16px;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 0.7;
+  width: 225px;
+}
+
+.review-submit-area {
+  display: flex;
+  align-items: center;
+}
+
 .reviews {
   padding: 56px 0;
+  background-color: #f4efe2;
 }
 
 .reviews__list {
